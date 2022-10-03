@@ -31,7 +31,7 @@ const Header = () => {
           </section>
         </div>
 
-        <div className="navBar flex justify-between items-center h-[96px] shadow-[0px_4px_12px_rgba(0,0,0,0.25)] laptop__screen:pl-[98px] laptop__screen:pr-[100px]">
+        <div className="navBar flex justify-between items-center h-[80px] shadow-[0px_4px_12px_rgba(0,0,0,0.25)] laptop__screen:pl-[98px] laptop__screen:pr-[100px]">
           <nav className="flex-grow z-10">
             <ul className="flex text-[24px] gap-x-[20px] font-robotoSerif">
               <li className="w-[65px] font-[800] text-[#500CA8] border-b-[3px] border-b-white cursor-pointer">
@@ -167,7 +167,7 @@ const Header = () => {
           </nav>
           <div className="search__bar flex-grow-0">
             <span className="text-[24px] text-[#8A2BE2] font-[400] font-robotoSerif">
-              <FiSearch className="absolute top-[108px] mx-[15px]" size={24} />
+              <FiSearch className="absolute top-[100px] mx-[15px]" size={24} />
               <input
                 className="border-[3px] border-[#8A2BE2] rounded-[12px] outline-none pl-[49px] placeholder:text-[#8A2BE2] w-[318px] h-[48px]"
                 type="text"

@@ -6,9 +6,10 @@ import { MdHelp } from "react-icons/md";
 import heroOne from "../assets/Hero/HeroOne.png";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper";
+import SwiperCore, { Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
+SwiperCore.use([Autoplay]);
 
 const Hero = () => {
   return (
@@ -48,7 +49,20 @@ const Hero = () => {
           <div className="right__content col-span-7  flex items-center mt-5 relative">
             <div className="slider w-full">
               <div className="absolute w-[78%] mt-[10px] left-[15px]">
-                <Image src={heroOne} alt="hero-one" />
+                <Swiper
+                  slidesPerView={1}
+                  autoplay={{ delay: 2000 }}
+                  speed={1300}
+                  onSlideChange={() => console.log("slide change")}
+                  onSwiper={(swiper) => console.log(swiper)}
+                >
+                  <SwiperSlide>
+                    <Image src={heroOne} alt="hero-one" />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <Image src={heroOne} alt="hero-one" />
+                  </SwiperSlide>
+                </Swiper>
               </div>
             </div>
           </div>
