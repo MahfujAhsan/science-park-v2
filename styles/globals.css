@@ -42,9 +42,9 @@
     background-size: cover;
 }
 
-/* .magic__show__card {
-    background: url('../components/assets/Events/magician-hat.png') no-repeat;
-    background-position: bottom right;
-    height: 100%;
-} */
+.upcoming__events {
+    height: 100vh;
+    background: url('../components/assets/UpcomingEvents/upcoming-events-backgroud.png') no-repeat;
+    background-size: cover;
+}
 
