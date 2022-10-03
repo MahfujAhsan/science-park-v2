@@ -3,6 +3,7 @@ import Events from '../components/Events/Events';
 import Header from '../components/Header/Header';
 import Hero from '../components/Hero/Hero';
 import UpcomingEvents from '../components/UpcomingEvents/UpcomingEvents.js'
+import WinnersAndGallery from '../components/WinnersAndGallery/WinnersAndGallery'
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
       <Hero />
       <Events />
       <UpcomingEvents />
+      <WinnersAndGallery />
     </main>
 
 

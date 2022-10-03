@@ -48,3 +48,9 @@
     background-size: cover;
 }
 
+.winners__and__gallery {
+    height: 100vh;
+    background: url('../components/assets/WinnersAndGallery/winnersAndGalleryBGpng.png') no-repeat;
+    background-size: cover;
+}
+

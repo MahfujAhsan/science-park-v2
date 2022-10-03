@@ -55,6 +55,7 @@ const Hero = () => {
                   speed={1300}
                   onSlideChange={() => console.log("slide change")}
                   onSwiper={(swiper) => console.log(swiper)}
+                  loop
                 >
                   <SwiperSlide>
                     <Image src={heroOne} alt="hero-one" />
