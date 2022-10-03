@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { IoChevronUpOutline, IoChevronDownOutline } from "react-icons/io5";
 import { FiSearch } from "react-icons/fi";
-import react, { useState } from "react";
+import { useState } from "react";
 
 const Header = () => {
   const [openEvents, isOpenEvents] = useState<boolean>(true);
