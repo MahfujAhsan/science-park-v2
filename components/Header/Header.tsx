@@ -21,11 +21,11 @@ const Header = () => {
             </span>
           </section>
 
-          <section className="buttons laptop__screen:text-[21px] laptop__screen:leading-[28px] laptop__screen:font-[500] flex-grow-0">
-            <button className="border-[3px] border-[#8A2BE2] rounded-[12px] text-[#8A2BE2] w-[145px] h-[48px]">
+          <section className="buttons laptop__screen:text-[21px] laptop__screen:leading-[28px] laptop__screen:font-[500] font-robotoSerif flex-grow-0">
+            <button className="border-[3px] border-[#8A2BE2] rounded-[12px] text-[#8A2BE2] w-[125px] h-[48px]">
               Sign In
             </button>
-            <button className="bg-[#8A2BE2] border-[3px] border-[#8A2BE2] rounded-[12px] text-[#fff] w-[145px] h-[48px] ml-[32px]">
+            <button className="bg-[#8A2BE2] border-[3px] border-[#8A2BE2] rounded-[12px] text-[#fff] w-[125px] h-[48px] ml-[32px]">
               Sign Up
             </button>
           </section>
@@ -169,7 +169,7 @@ const Header = () => {
             <span className="text-[24px] text-[#8A2BE2] font-[400] font-robotoSerif">
               <FiSearch className="absolute top-[100px] mx-[15px]" size={24} />
               <input
-                className="border-[3px] border-[#8A2BE2] rounded-[12px] outline-none pl-[49px] placeholder:text-[#8A2BE2] w-[318px] h-[48px] text-[21px]"
+                className="border-[3px] border-[#8A2BE2] rounded-[12px] outline-none pl-[49px] placeholder:text-[#8A2BE2] w-[280px] h-[48px] text-[21px]"
                 type="text"
                 placeholder="Search"
               />
