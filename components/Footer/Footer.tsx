@@ -7,7 +7,7 @@ import { AiFillInstagram, AiFillFacebook, AiFillMail } from "react-icons/ai";
 const Footer = () => {
   return (
     <>
-      <section className="footer">
+      <section className="footer hidden notepad__screen:block">
         <div className="pt-[40px] w-[95%] mx-auto">
           <Image src={Child} alt="child" />
         </div>

@@ -14,7 +14,7 @@ SwiperCore.use([Autoplay]);
 const Hero = () => {
   return (
     <>
-      <section className="hero__container grid grid-cols-12">
+      <section className="hero__container hidden notepad__screen:grid grid-cols-12">
         <div className="py-[20px] col-span-1">
           <div className="social__icons flex items-center">
             <div className="ml-[8px] text-white">

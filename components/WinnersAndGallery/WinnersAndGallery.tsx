@@ -19,7 +19,7 @@ SwiperCore.use([Autoplay, Navigation]);
 const WinnersAndGallery = () => {
   return (
     <>
-      <section className="winners__and__gallery">
+      <section className="winners__and__gallery hidden notepad__screen:block">
         <div className="text-center pt-[10px]">
           <h2 className="text-[46px] leading-[60px] text-[#FFECFF] font-robotoSerif font-[700]">
             Winners for Last Week

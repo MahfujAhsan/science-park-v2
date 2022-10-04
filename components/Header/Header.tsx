@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <>
       {/* BrandLogo & Customer Registration */}
-      <div className="header__container">
+      <div className="header__container hidden notepad__screen:block">
         <div className="laptop__screen:flex items-center justify-between min-h-[72px] laptop__screen:pl-[98px] laptop__screen:pr-[100px]">
           <section className="brand__logo laptop__screen:flex items-center flex-grow laptop__screen:font-[400]">
             <span className="laptop__screen:font-greatFredricka laptop__screen:text-[38px] laptop__screen:leading-[69px] laptop__screen:text-[#4A1E9E]">

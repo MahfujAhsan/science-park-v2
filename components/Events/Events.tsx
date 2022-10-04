@@ -9,7 +9,7 @@ import Image from "next/image";
 const Events = () => {
   return (
     <>
-      <section className="events__container overflow-hidden">
+      <section className="events__container overflow-hidden hidden notepad__screen:block">
         <h2 className="font-atma font-[700] text-center text-[60px] leading-[90px] drop-shadow-[42px_20px_6px_rgba(0,0,0,0.10)]">
           <span className="text-[#DD0000]">E</span>
           <span className="text-[#DFE300]">V</span>

@@ -10,7 +10,7 @@ SwiperCore.use([Autoplay, Navigation]);
 const UpcomingEvents = () => {
     return (
         <>
-            <section className="upcoming__events">
+            <section className="upcoming__events hidden notepad__screen:block">
                 <div className="text-center">
                     <h2 className="text-[60px] font-aladinCursive text-[#565656] font-[400]">Upcoming Events</h2>
                     <p className="text-[32px] font-robotoSerif font-[500] text-[#565656] leading-[35px]">Date:- 24/07/2022 on Sunday</p>
