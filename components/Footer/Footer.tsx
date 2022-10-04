@@ -106,7 +106,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="text-center text-[14px] font-robotoSerif font-[400] py-[12px]">
+          <div className="text-center text-[14px] font-robotoSerif font-[400] py-[12px] tracking-widest">
             <p>Copyrights©2022 All Rights Reserved</p>
           </div>
         </div>

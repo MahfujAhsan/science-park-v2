@@ -21,7 +21,7 @@ const Header = () => {
             </span>
           </section>
 
-          <section className="buttons laptop__screen:text-[24px] laptop__screen:leading-[28px] laptop__screen:font-[500] flex-grow-0">
+          <section className="buttons laptop__screen:text-[21px] laptop__screen:leading-[28px] laptop__screen:font-[500] flex-grow-0">
             <button className="border-[3px] border-[#8A2BE2] rounded-[12px] text-[#8A2BE2] w-[145px] h-[48px]">
               Sign In
             </button>
@@ -33,7 +33,7 @@ const Header = () => {
 
         <div className="navBar flex justify-between items-center h-[80px] shadow-[0px_4px_12px_rgba(0,0,0,0.25)] laptop__screen:pl-[98px] laptop__screen:pr-[100px]">
           <nav className="flex-grow z-10">
-            <ul className="flex text-[24px] gap-x-[20px] font-robotoSerif">
+            <ul className="flex text-[21px] gap-x-[20px] font-robotoSerif">
               <li className="w-[65px] font-[800] text-[#500CA8] border-b-[3px] border-b-white cursor-pointer">
                 <Link href="/">
                   <a>Home</a>
@@ -43,7 +43,7 @@ const Header = () => {
                 <button
                   onMouseEnter={() => isOpenEvents(false)}
                   onMouseLeave={() => isOpenEvents(true)}
-                  className={`peer flex items-center font-[500] text-[24px] ${
+                  className={`peer flex items-center font-[500] text-[21px] ${
                     openEvents
                       ? "text-[#8A2BE2]"
                       : "text-[#500CA8] border-b-[3px] border-b-[#E2762B]"
@@ -100,7 +100,7 @@ const Header = () => {
                 <button
                   onMouseEnter={() => isOpenBook(false)}
                   onMouseLeave={() => isOpenBook(true)}
-                  className={`peer flex items-center font-[500] text-[24px] ${
+                  className={`peer flex items-center font-[500] text-[21px] ${
                     openBook
                       ? "text-[#8A2BE2]"
                       : "text-[#500CA8] border-b-[3px] border-b-[#E2762B]"
@@ -153,12 +153,12 @@ const Header = () => {
                   </Link>
                 </div>
               </li>
-              <li className="w-[99px] font-[500] text-[24px] text-[#8A2BE2] border-b-[3px] border-b-white cursor-pointer">
+              <li className="w-[99px] font-[500] text-[21px] text-[#8A2BE2] border-b-[3px] border-b-white cursor-pointer">
                 <Link href="/about-us">
                   <a>About Us</a>
                 </Link>
               </li>
-              <li className="w-[85px] font-[500] text-[24px] text-[#8A2BE2] border-b-[3px] border-b-white">
+              <li className="w-[85px] font-[500] text-[21px] text-[#8A2BE2] border-b-[3px] border-b-white">
                 <Link href="/contact">
                   <a>Contact</a>
                 </Link>
@@ -169,7 +169,7 @@ const Header = () => {
             <span className="text-[24px] text-[#8A2BE2] font-[400] font-robotoSerif">
               <FiSearch className="absolute top-[100px] mx-[15px]" size={24} />
               <input
-                className="border-[3px] border-[#8A2BE2] rounded-[12px] outline-none pl-[49px] placeholder:text-[#8A2BE2] w-[318px] h-[48px]"
+                className="border-[3px] border-[#8A2BE2] rounded-[12px] outline-none pl-[49px] placeholder:text-[#8A2BE2] w-[318px] h-[48px] text-[21px]"
                 type="text"
                 placeholder="Search"
               />
