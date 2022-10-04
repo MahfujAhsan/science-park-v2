@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
       <section className="footer">
-        <div className="pt-[70px] w-[95%] mx-auto">
+        <div className="pt-[40px] w-[95%] mx-auto">
           <Image src={Child} alt="child" />
         </div>
         <div className="bg-white text-black -mt-[5px] w-[89.7%] ml-[80px] px-[40px]">
