@@ -37,7 +37,7 @@ const Footer = () => {
                   News Letter
                 </h3>
                 <div>
-                  <input placeholder="Email" type="text" className="border-[2px] border-[#8A2BE2] placeholder:text-[#8A2BE2] text-[16px] font-[600] font-robotoSerif  px-[10px] py-[3px] rounded-[8px] mt-[15px]"  />
+                  <input placeholder="Email" type="text" className="border-[3px] border-[#8A2BE2] placeholder:text-[#8A2BE2] text-[16px] font-[600] font-robotoSerif  px-[10px] py-[3px] rounded-[8px] mt-[15px]"  />
                   <button className="bg-[#8A2BE2] text-[#fff] px-[15px] py-[4px] rounded-[8px] ml-[8px] font-robotoSerif font-[600] text-[16px]">Send</button>
                 </div>
               </div>

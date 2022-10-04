@@ -88,3 +88,10 @@
     color: #7100807a!important;
 }
 
+.sign__up {
+    height: 100vh;
+    width: 100vw;
+    background: url('../components/assets/SignUp/signup-background.png') no-repeat;
+    background-size: cover;
+}
+

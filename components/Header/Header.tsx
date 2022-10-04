@@ -26,7 +26,7 @@ const Header = () => {
               Sign In
             </button>
             <button className="bg-[#8A2BE2] border-[3px] border-[#8A2BE2] rounded-[12px] text-[#fff] w-[125px] h-[48px] ml-[32px]">
-              Sign Up
+              <Link href="/SignUp">SignUp</Link>
             </button>
           </section>
         </div>

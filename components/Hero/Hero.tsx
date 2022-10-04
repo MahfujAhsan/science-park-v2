@@ -36,7 +36,7 @@ const Hero = () => {
               <h2 className="text-[38px] text-[#565656] leading-[42px] w-[544px] font-[700]">
                 What we learn by pleasure we never forget
               </h2>
-              <p className="text-[17px] text-[#565656] font-[500] w-[512px] tracking-wider my-[20px]">
+              <p className="text-[17px] text-[#565656] font-[500] w-[412px] tracking-wider my-[20px]">
                 We provide platform for the students to explore STEM( Science,
                 Tech, Engineering, Mathematics) so to make them learn while
                 having fun and provide a competitive environment.
