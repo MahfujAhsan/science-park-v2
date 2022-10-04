@@ -11,8 +11,8 @@ const Footer = () => {
         <div className="pt-[40px] w-[95%] mx-auto">
           <Image src={Child} alt="child" />
         </div>
-        <div className="bg-white text-black -mt-[5px] w-[89.7%] ml-[80px] px-[40px]">
-          <div className="grid grid-cols-12 place-items-center gap-x-[60px] border-b-[4px] border-[#F8F1AC] pb-[20px]">
+        <div className="footer__links text-black w-[95%] mx-auto pt-[50px] -mt-[70px] pl-[50px]">
+          <div className="grid grid-cols-12 place-items-center gap-x-[60px] border-b-[4px] border-[#F8F1AC] pb-[10px]">
             <div className="col-span-4">
               <h2 className="brand__logo laptop__screen:flex items-center flex-grow laptop__screen:font-[400]">
                 <span className="laptop__screen:font-greatFredricka laptop__screen:text-[38px] laptop__screen:leading-[69px] laptop__screen:text-[#4A1E9E]">
@@ -37,8 +37,8 @@ const Footer = () => {
                   News Letter
                 </h3>
                 <div>
-                  <input placeholder="Email" type="text" className="border-[2px] border-[#8A2BE2] placeholder:text-[#8A2BE2] text-[16px] font-[600] font-robotoSerif  px-[10px] py-[3px] rounded-[8px]"  />
-                  <button className="bg-[#8A2BE2] text-[#fff] px-[15px] py-[4px] rounded-[8px] ml-[8px]">Send</button>
+                  <input placeholder="Email" type="text" className="border-[2px] border-[#8A2BE2] placeholder:text-[#8A2BE2] text-[16px] font-[600] font-robotoSerif  px-[10px] py-[3px] rounded-[8px] mt-[15px]"  />
+                  <button className="bg-[#8A2BE2] text-[#fff] px-[15px] py-[4px] rounded-[8px] ml-[8px] font-robotoSerif font-[600] text-[16px]">Send</button>
                 </div>
               </div>
             </div>
@@ -106,7 +106,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="text-center text-[14px] font-robotoSerif font-[400] py-[12px] tracking-widest">
+          <div className="text-center text-[14px] font-robotoSerif font-[500] py-[12px] text-[#565656]">
             <p>Copyrights©2022 All Rights Reserved</p>
           </div>
         </div>

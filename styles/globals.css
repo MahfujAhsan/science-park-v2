@@ -60,5 +60,31 @@
     background-size: cover;
 }
 
+.footer__links {
+    background: url('../components/assets/Footer/footer-links.png') no-repeat;
+    background-size: cover;
+}
 
+.upcoming__events__slider .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    display: none!important;
+}
+
+.upcoming__events__slider .swiper-button-next::after, .swiper-rtl .swiper-button-prev {
+    font-size: 100px!important;
+    font-weight: 900!important;
+    margin-right: 100px;
+    color: #D1D1AB!important;
+}
+
+.gallery__slider .swiper-button-prev::after, .swiper-rtl .swiper-button-next {
+    font-size: 100px!important;
+    font-weight: 900!important;
+    color: #7100807a!important;
+}
+
+.gallery__slider .swiper-button-next::after, .swiper-rtl .swiper-button-prev {
+    font-size: 100px!important;
+    font-weight: 900!important;
+    color: #7100807a!important;
+}
 

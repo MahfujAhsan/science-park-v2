@@ -2,10 +2,10 @@ import Image from 'next/image';
 import ScienceQuiz from '../assets/UpcomingEvents/left-image.png';
 import { MdKeyboardArrowRight } from 'react-icons/md';
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Autoplay } from "swiper";
+import SwiperCore, { Autoplay, Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
-SwiperCore.use([Autoplay]);
+SwiperCore.use([Autoplay, Navigation]);
 
 const UpcomingEvents = () => {
     return (
@@ -15,13 +15,14 @@ const UpcomingEvents = () => {
                     <h2 className="text-[60px] font-aladinCursive text-[#565656] font-[400]">Upcoming Events</h2>
                     <p className="text-[32px] font-robotoSerif font-[500] text-[#565656] leading-[35px]">Date:- 24/07/2022 on Sunday</p>
                 </div>
-                <Swiper
+                <Swiper className='upcoming__events__slider'
                     slidesPerView={1}
-                    autoplay={{ delay: 2000 }}
-                    speed={1300}
+                    autoplay={{ delay: 5000 }}
+                    speed={3000}
                     onSlideChange={() => console.log("slide change")}
                     onSwiper={(swiper) => console.log(swiper)}
                     loop
+                    navigation
                 >
                     <SwiperSlide>
                         <div className='grid grid-cols-12 place-items-center w-10/12 mx-auto mt-[40px]'>
