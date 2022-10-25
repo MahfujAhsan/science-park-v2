@@ -100,7 +100,16 @@
     background: linear-gradient(260.03deg, #1D004E 10.78%, rgba(134, 88, 210, 0) 100%);
 }
 
+/* Responsive CSS */
+
 .mobile__hero {
-    height: 70vh;
+    height: 80vh;
+}
+
+.hero__right__content {
+    height: 40vh;
+    background: url('../components/assets/Hero/heroRightBG.png') no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
 

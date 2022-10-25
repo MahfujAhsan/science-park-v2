@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="pt-[40px] w-[95%] mx-auto">
           <Image src={Child} alt="child" />
         </div>
-        <div className="footer__links text-black w-[95%] mx-auto pt-[50px] -mt-[70px] pl-[50px]">
+        <div className="footer__links text-black pt-[50px] -mt-[70px] pl-[50px]">
           <div className="grid grid-cols-12 place-items-center gap-x-[60px] border-b-[4px] border-[#F8F1AC] pb-[10px]">
             <div className="col-span-4">
               <h2 className="brand__logo laptop__screen:flex items-center flex-grow laptop__screen:font-[400]">

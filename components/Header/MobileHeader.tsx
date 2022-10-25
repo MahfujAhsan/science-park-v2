@@ -32,12 +32,12 @@ const MobileHeader = () => {
           <div>
             <button onClick={() => setOpen(!open)}>
               <span className="text-[#565656]">
-                {open ? <MdClose size={24} /> : <FiMenu size={24} />}
+                {!open ? <MdClose size={24} /> : <FiMenu size={24} />}
               </span>
             </button>
             <ul
               className={`absolute z-[1] right-0 w-full mr-auto transition-all duration-500 ease-in px-[16px] ${
-                open ? "top-[52px]" : "top-[-590px]"
+                !open ? "top-[52px]" : "top-[-590px]"
               }`}
             >
               <div className="bg-[#F8EFA0] rounded-l-[16px] rounded-br-[16px] border-[2px] border-[#ffffff]">
